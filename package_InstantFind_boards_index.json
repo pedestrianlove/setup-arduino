@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/pedestrianlove/setup-arduino/raw/main/InstantFind-1.0.1.zip",
           "archiveFileName": "InstantFind-1.0.1.zip",
-          "checksum": "SHA-256:ffd6dc5052435455d5dfc41626c6ca46a55fba8ab6e9879dc9d261d820f4f70f",
-          "size": "6702902",
+          "checksum": "SHA-256:0e70607c5b678e180b94776eef98f17da74d618f9d9cdd079d0dcbbb608490c3",
+          "size": "6088697",
           "boards": [
             {"name": "ITM9050DK"},
             {"name": "ITM9100DK"},
