@@ -13,11 +13,11 @@ board:
 	arduino-cli board list
 
 build:
-	arduino-cli compile -b InstantFind:InstantFind:ITM9100DK
+	arduino-cli compile -b LinkIt:linkit_rtos:linkit_7697
 
 serial:
-	arduino-cli monitor -p /dev/cu.usbmodem0001A00000001
+	arduino-cli monitor -p /dev/cu.usbserial-0001
 
 upload: build
 	# arduino-cli upload -p /dev/cu.usbmodem0001A00000001 -b InstantFind:InstantFind:ITM9100DK 
-	arduino-cli upload -b InstantFind:InstantFind:ITM9100DK 
+	arduino-cli upload -p /dev/cu.usbserial-0001 -b LinkIt:linkit_rtos:linkit_7697
